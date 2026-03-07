@@ -96,11 +96,11 @@ footer {
 .header-image {
     display: block;
     max-width: 400px;
-    /* 横幅の最大値 */
-    width: 100%;
-    /* スマホで見るときは画面幅に合わせて縮小 */
+    /* PCでは最大400px */
+    width: 90%;
+    /* スマホでは画面幅の90%に縮小 */
     margin: 20px auto;
-    /* 上下の余白と中央寄せ */
+    /* 中央寄せ */
     height: auto;
     /* 比率を維持 */
 }
