@@ -91,3 +91,16 @@ footer {
 .description-text strong {
     color: var(--primary-blue);
 }
+
+/* ヘッダー画像のサイズ調整 */
+.header-image {
+    display: block;
+    max-width: 400px;
+    /* 横幅の最大値 */
+    width: 100%;
+    /* スマホで見るときは画面幅に合わせて縮小 */
+    margin: 20px auto;
+    /* 上下の余白と中央寄せ */
+    height: auto;
+    /* 比率を維持 */
+}
